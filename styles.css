@@ -6,10 +6,9 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     gap: 20px;
 
@@ -48,13 +47,21 @@ body {
 }
 
 .panel h1 {
-    font-size: 40px;
     margin-bottom: 10px;
+
+    font-size: 40px;
     color: rgb(212, 211, 167);
 }
 
 .panel .post {
     font-size: 15px;
+}
+
+.panel .date {
+    margin-bottom: 8px;
+
+    font-size: 15px;
+    color: rgb(212, 211, 167);
 }
 
 .panel .list {
@@ -68,7 +75,20 @@ body {
     color: lightblue;
 }
 
+.page {
+    width: 70%;
+    min-height: 76vh; 
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #391e69;
+    border-radius: 15px;
+}
+
 .footer-bar {
+    margin-top: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,7 +114,6 @@ body {
     display: flex;
     gap: 20px;
 }
-
 
 .footer-bar .socials .list li a {
     display: flex;
