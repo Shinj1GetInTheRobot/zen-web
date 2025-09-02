@@ -95,6 +95,17 @@ body {
     gap: 20px;
 }
 
+
+.footer-bar .socials .list li a {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 30px;
+    height: auto;
+}
+
 a {
     color: #eee;
     text-decoration: none;
